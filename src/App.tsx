@@ -1,9 +1,7 @@
-const App = () => {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+import Navbar from "./components/Navbar/Navbar";
 
-export default App
+const App = () => {
+  return <Navbar />;
+};
+
+export default App;
