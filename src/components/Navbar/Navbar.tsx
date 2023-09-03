@@ -3,8 +3,8 @@ import Button from "../shared/Button";
 const Navbar = () => {
   return (
     <nav className="bg-primary h-56">
-      <div className="flex flex-wrap flex-row justify-between px-32 pt-20">
-        <h1 className="text-4xl font-semibold text-white">
+      <div className="flex flex-wrap flex-row justify-between px-32 pt-20 max-md:flex-col max-md:items-center max-md:justify-between max-md:pt-6 max-md:px-14">
+        <h1 className="text-4xl font-semibold text-white max-md:mb-8">
           F<span className="text-red-500">oo</span>dy Z
           <span className="text-red-500">o</span>ne
         </h1>
